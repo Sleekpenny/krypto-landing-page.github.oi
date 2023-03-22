@@ -1,0 +1,136 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing:border-box
+}
+
+body{
+    height: 100vh;
+    font-family: corbel
+}
+
+.container{
+    height: 100vh ;
+    width: 30%;
+    margin:auto
+}
+
+ article {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin:10px;
+    font-family: corbel;
+    font-weight: bolder
+}
+
+.listhead ul {
+    display: flex; 
+    flex-flow:row nowrap;
+    gap: 1.5rem
+
+}
+
+li a:any-link {
+    text-decoration: none;
+    color: black;
+    font-size:1.5vh
+}
+
+ul li{
+    list-style-type: none;
+}
+
+ header{
+    height: 55%;
+    background-color:rgba(236, 232, 232, 0.589)
+}
+
+.bodyclass {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    margin:35px;
+    padding: 10px;
+    font-size:1.2vh;
+    font-family: corbel;
+    text-align: justify;
+    font-weight: bold
+}
+
+.watchlist{
+    text-align: center;
+    margin:15px;
+    font-size: 1.3vh;
+    display:flex;
+    gap: 1rem
+}
+
+.images {
+    margin-top: -50px;
+    display:block
+}
+
+main{
+    height: 30%;
+    background: white
+}
+
+ .block {
+    display: flex;
+    background: black;
+    color: white;
+    height:20px;
+    padding:3px;
+    width:15%;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.block1{
+    width: 25%;
+    background: black;
+    color: white;
+    height:20px;
+    padding:3px;
+    border-radius: 3px;
+    text-align: center;
+}
+.images1{
+    display: flow-root;
+    margin-top:5vh;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.images2{
+    float:right;
+}
+.onGod {
+    display: flow-root;
+    margin-top: 30px;
+  
+    flex-wrap: nowrap;
+}
+footer{
+    background: black;
+    color: white;
+    display: flex;
+    flex-flow: row nowrap;
+    gap:1rem;
+    margin-top:150px;
+    justify-content: space-between;
+    font-size: 1.2vh;
+    padding:7px
+
+}
+
+.lastone{
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    padding: 5px;
+    height: 25px
+}
+
